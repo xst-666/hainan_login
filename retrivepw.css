@@ -1,0 +1,68 @@
+	.body_bg {
+    		background: white url(loginbg2.jpg) no-repeat center center fixed;
+    		background-size: cover;
+		}
+	
+	.header {
+    		height: 100px;
+   		margin: 0 auto;
+    		width: 1000px;
+		}
+
+	.header .top {
+    		padding: 10px 10px 0;
+   		height: 90px;
+		}
+
+	.main {
+    		margin: 60px auto 0;
+    		min-height: 540px;
+    		width: 1000px;
+		background: #fff;
+		}
+
+	.container-tilte {
+    		font-family: PingFangSC-Medium;
+    		font-size: 18px;
+   		color: #333333;
+    		letter-spacing: 0;
+    		font-weight: bold;
+    		text-align: center;
+    		margin-bottom: 36px;
+		}
+	.flow_steps {
+    		height: 32px;
+    		overflow: hidden;
+    		overflow-x: hidden;
+    		overflow-y: hidden;
+		}
+	.flow_steps li {
+    		float: left;
+    		width: 180px;
+    		height: 32px;
+    		line-height: 32px;
+    		background: url(shape.png) no-repeat 100% -32px #F0F1F9;
+    		font-weight: bold;
+    		font-family: PingFangSC-Medium;
+    		font-size: 14px;
+   		letter-spacing: 0;
+    		color: #666666;
+		}
+	.flow_steps li.current {
+    		color: #fff;
+    		background-color: #3F51B5;
+		}
+	.one-title {
+    		display: block;
+    		font-family: PingFangSC-Regular;
+    		font-size: 16px;
+    		color: #333333;
+   		letter-spacing: 0;
+    		text-decoration: none;
+    		margin-top: 20px;
+		}
+	.auth_login_footer {
+    		width: 100%;
+    		margin-top: 100px;
+   		 text-align: center;
+		}
